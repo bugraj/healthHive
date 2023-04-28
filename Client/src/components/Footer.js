@@ -33,15 +33,31 @@ const Footer = () => {
                   Health Hive
                 </Typography>
                 <Box>
-                {/* <Link
-        href="http://geeksforgeeks.org/"
-      > */}
-        <FacebookOutlined />
-      {/* </Link> */}
-               
-                  <Instagram />
-                  <LinkedIn />
-                  <YouTube />
+              
+                <Link
+                      href="https://www.facebook.com/profile.php?id=100047229305153" target="_blank"
+                    >
+                       <FacebookOutlined />
+                </Link>
+
+                <Link
+                      href="https://www.instagram.com/its_raj_soni_/?r=nametag" target="_blank"
+                    >
+                        <Instagram />
+                </Link>
+
+                <Link
+                      href="https://www.linkedin.com/in/raj-kr-soni" target="_blank"
+                    >
+                       <LinkedIn />
+                </Link>
+
+                <Link
+                      href="https://www.youtube.com/c/itsrajsoni" target="_blank"
+                    >
+                       <YouTube />
+                </Link>
+
                 </Box>
               </Box>
             </div>
@@ -53,6 +69,7 @@ const Footer = () => {
                 <Typography variant="h5" style={{ margin: "20px" }}>
                   Product
                 </Typography>
+
                 <Box className={classes.box}>
                   <Typography display="block">Features</Typography>
                   <Typography display="block">Pricing</Typography>
@@ -60,6 +77,7 @@ const Footer = () => {
                   <Typography display="block">Updates</Typography>
                 </Box>
               </Grid>
+
               <Grid item md={4} className={classes.footerSec}>
                 <Typography variant="h5" style={{ margin: "20px" }}>
                   Features
@@ -90,7 +108,7 @@ const Footer = () => {
                 <Box className={classes.box}>
                   <Typography variant="subtitle1" display="block">
                     <EmailOutlined />
-                    inforajsoni@gmail.com
+                     inforajsoni@gmail.com
                   </Typography>
 
                   <Typography variant="subtitle1" display="block">
